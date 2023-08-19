@@ -1,0 +1,78 @@
+body{
+    margin: auto 25px;
+    padding: auto 10px;
+    background: #7bc6cc;
+}
+
+#content{
+    margin: auto ;
+    padding: 0 0 50px 50px;
+    background: rgba(247, 252, 247, 0.4);
+}
+h1,h2,h3{
+    color: green;
+}
+
+.avatar{
+    width: 150px;
+}
+.school{
+    font-weight: bold;
+}
+
+p{
+    padding: 0 0 0 50px;
+}
+table,td,th{
+    border: 1px solid black;
+}
+
+table{
+    margin: auto;
+}
+
+td,th{
+    border-left-width:0 ;
+}
+
+thead th{
+    font-size: 20px;
+    font-weight: bold;
+    color:green;
+}
+
+tbody th{
+    font-weight: normal;
+}
+
+.skill table ul{
+    list-style: none;
+    text-align: left;
+    padding: 0 10px 0 10px;
+    margin: 0 ;
+}
+
+.skill span{
+    font-weight: bold ;
+}
+
+.other ul li{
+    list-style: none;
+}
+
+.other ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.other ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+footer{
+    margin-top: 50px;
+    padding: auto 50px;
+    text-align: center;
+}
