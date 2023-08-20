@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <title>Calculator</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="nav">
+      <ul class="nav-bar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../hobbies.html">Hobbies</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../project.html">My Projects</a></li>
+      </ul>
+    </div>
+    <div id="calculator">
+      <input type="text" id="display" class="font-effect-digitalo">    
+    <div class="keyboard">
+      <button onclick="allClear('AC')">AC</button>
+      <button onclick="delChar('DEL')">DEL</button>
+      <button onclick="percentNum('%')">%</button>
+      <button onclick="display('/')">/</button>
+      
+      <button onclick="display('1')">1</button>
+      <button onclick="display('2')">2</button>
+      <button onclick="display('3')">3</button>
+      <button onclick="display('*')">x</button>
+      
+      <button onclick="display('4')">4</button>
+      <button onclick="display('5')">5</button>
+      <button onclick="display('6')">6</button>
+      <button onclick="display('-')">-</button>
+      
+      <button onclick="display('7')">7</button>
+      <button onclick="display('8')">8</button>
+      <button onclick="display('9')">9</button>
+      <button onclick="display('+')">+</button>
+      
+      <button onclick="squareNum('^2')">^2</button>
+      <button onclick="display('0')">0</button>
+      <button onclick="display('.')">.</button>
+      <button onclick="result('=')">=</button>
+    </div>
+   </div>
+  </body>
+</html>
