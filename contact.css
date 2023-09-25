@@ -24,9 +24,11 @@ body{
     color: rebeccapurple;    
 }
 
+
 .listbody{
-    margin: auto 200px;
-    padding: 50px 0 50px 300px;
+    margin: auto;
+    max-width: 900px;
+    padding: 50px 0 50px 30px;
     background: rgba(247, 252, 247, 0.4);
 }
 h1{
