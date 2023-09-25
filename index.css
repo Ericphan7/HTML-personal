@@ -1,20 +1,36 @@
 body{
     margin: auto 25px;
-    padding: auto 10px;
-    background: #7bc6cc;
+    padding: auto 10px;    
+    background: linear-gradient(300deg,#dbe884,  #0BAB64,#43D2A4);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
 }
 
 #content{
     margin: auto ;
     padding: 0 0 50px 50px;
     background: rgba(247, 252, 247, 0.4);
+    box-shadow: 0px 10px 15px 1px #0000001a;
+    max-width: 80%;
 }
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 h1,h2,h3{
     color: green;
 }
 
 .avatar{
     width: 150px;
+    border-radius: 45px ;
 }
 .school{
     font-weight: bold;
