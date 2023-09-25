@@ -22,10 +22,10 @@ body{
     background-color: gray;
     color: rebeccapurple;    
 }
-
 .main-content{
-    margin: auto 50px;
-    padding: 50px 0 50px 100px;
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 0 50px 10px;    
     background: rgba(247, 252, 247, 0.4);
 }
 h1{
@@ -35,4 +35,9 @@ h1{
 .title{
     color: Green;
     font-size: 26px ;
+}
+
+.flex-box{
+    columns: 2;
+    column-gap: 30px;
 }
