@@ -253,4 +253,5 @@ padding: 50px;
     text-align: center;
     background: linear-gradient(#793FDF, #854de6, #a381dd);
     color: white;
+    cursor: pointer;
 }
