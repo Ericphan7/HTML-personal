@@ -28,9 +28,31 @@ h1,h2,h3{
     color: green;
 }
 
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
 .avatar{
     width: 150px;
     border-radius: 45px ;
+}
+
+.btn-nav #other{
+    margin-top: 50px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background:#3c7363;  
+    color: #e8f1fd;
+    border: none;  
+}
+
+.btn-nav #other:hover{    
+    box-shadow: 0 0 2px 2px rgba(60, 115, 99, 0.75);
+    cursor: pointer;
 }
 .school{
     font-weight: bold;
