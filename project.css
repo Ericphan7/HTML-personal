@@ -1,3 +1,9 @@
+body{
+    margin: auto;
+    padding: 20px;
+    background: #f5f5fa;
+}
+
 #nav {
     list-style: none;
     background: green;
@@ -11,6 +17,7 @@
     color: aliceblue;
     font-weight: bold;
     font-size: 25px;
+    border-radius: 15px;
 }
 
 #nav li a:hover{
@@ -22,17 +29,12 @@ h2,h3{
     color: green;
 }
 
-body{
-    margin: auto;
-    padding: 20px;
-    background: rgb(167, 191, 232);
-}
 
 main{
     margin: 0 auto;
     max-width: 900px;
     padding: 50px 0 50px 30px;
-    background: rgba(247, 252, 247, 0.4);
+    background: rgba(147, 213, 155, 0.2);
     align-items: center;
 }
 h1{
