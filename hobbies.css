@@ -1,7 +1,7 @@
 body{
     margin: auto;
     padding: 20px;
-    background: rgb(167, 191, 232);
+    background: #f5f5fa;
 }
 #nav {
     list-style: none;
@@ -16,6 +16,7 @@ body{
     color: aliceblue;
     font-weight: bold;
     font-size: 25px;
+    border-radius: 15px;
 }
 
 #nav li a:hover{
@@ -26,7 +27,7 @@ body{
     max-width: 900px;
     margin: auto;
     padding: 50px 0 50px 10px;    
-    background: rgba(247, 252, 247, 0.4);
+    background: rgba(147, 213, 155, 0.2);
 }
 h1{
     font-size: 50px;
